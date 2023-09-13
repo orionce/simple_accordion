@@ -40,8 +40,6 @@ Add simple_accordion.js file before to close body tag
 simple_accordion();
 ```
 
-### Options
-
 You can add some custom styling properties
 
 ```javascript
@@ -55,6 +53,8 @@ simple_accordion(
   })
 );
 ```
+
+### Options
 
 | Name                | Default     | Type    | Description                                            |
 | :------------------ | :---------- | :------ | :----------------------------------------------------- |
