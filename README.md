@@ -58,7 +58,7 @@ simple_accordion(
 
 | Name                | Default     | Type    | Description                                            |
 | :------------------ | :---------- | :------ | :----------------------------------------------------- |
-| enable              | `true`      | boolean | Transition speed on miliseconds.                       |
+| enable              | `true`      | boolean | Enable or disable the accordion.                       |
 | class_name          | `''`        | string  | Allow to add a Class Name to accordion main container. |
 | header_size         | `16`        | number  | Allow to change font-size header.                      |
 | header_color        | `'inherit'` | string  | Allow to change font color header.                     |
