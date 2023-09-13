@@ -67,7 +67,7 @@ simple_accordion(
 
 ### HTML Structure
 
-For a simple accordion/dropdown, use the following structure/data-attributes:
+For a simple accordion, use the following HTML structure:
 
 ```html
 <div class="simple_accordion">
