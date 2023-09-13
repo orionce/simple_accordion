@@ -1,8 +1,8 @@
 # Simple Accordion
 
-Responsive css and js accordion plugin.
+Responsive html, css and js accordion.
 
-Simple Accordion is a simple accordion built with JavasCript and CSS, you can change some styling options as you like.
+Simple Accordion is a simple accordion built with JavaScript and CSS, you can change some styling options as you like.
 
 Supports all modern browsers.
 
