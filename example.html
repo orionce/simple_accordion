@@ -1,70 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<title></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-	<meta name="description" content="" />
-	<link rel="icon" href="favicon.ico" type="image/png" />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="simple_accordion.css"/> <!-- css base -->
-	<!--[if lt IE 9]>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-	<![endif]-->
-</head>
+  <head>
+    <title>Simple JS Accordion</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="simple_accordion.css" />
+    <!-- css base -->
+    <!--[if lt IE 9]>
+      <script
+        type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"
+      ></script>
+    <![endif]-->
+  </head>
 
-<body>
+  <body>
+    <div class="container">
+      <h1>Simple Accordion</h1>
 
-  <div class="container">
-    <h1>Simple Accordion</h1>
-
-    <div class="simple_accordion">
-
-      <div class="acc_item">
-        <h2 class="acc_header">Sección 1</h2>
-        <div class="acc_content">
-         <div>
-          <p>Your content here</p>
-         </div>
+      <div class="simple_accordion">
+        <div class="acc_item">
+          <h2 class="acc_header">Header accordion 1</h2>
+          <div class="acc_content">
+            <div>
+              <p>Your content here</p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="acc_item">
-        <h2 class="acc_header">Sección 2</h2>
-        <div class="acc_content">
-         <div>
-          <p>Your content here</p>
-         </div>
+        <div class="acc_item">
+          <h2 class="acc_header">Header accordion 2</h2>
+          <div class="acc_content">
+            <div>
+              <p>Your content here</p>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="acc_item">
-        <h2 class="acc_header">Sección 2</h2>
-        <div class="acc_content">
-         <div>
-          <p>Your content here</p>
-         </div>
+        <div class="acc_item">
+          <h2 class="acc_header">Header accordion 3</h2>
+          <div class="acc_content">
+            <div>
+              <p>Your content here</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-        
-  
 
-
-
-
-<script src="simple_accordeon.js"></script> <!-- scripts varios -->
-<script>
-	simple_accordion(
-    styles = {
-      header_size: 14,
-      header_color: 'darkblue',
-      header_active_color: 'green',
-      first_active: true
-    }
-  )
-</script>
-</body>
-
+    <script src="simple_accordeon.js"></script>
+    <!-- scripts varios -->
+    <script>
+      simple_accordion({
+        headerSize: 14,
+        headerColor: "darkblue",
+        headerActiveColor: "green",
+        firstActive: true,
+      });
+    </script>
+  </body>
 </html>
