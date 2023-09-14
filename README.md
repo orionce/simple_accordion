@@ -18,7 +18,7 @@ Copy the simple_accordion folder in your proyect.
 
 ### CSS file
 
-Add simple_accordion.css file incide your HEAD tag
+Add simple_accordion.css file incide your HEAD tag.
 
 ```html
 <link rel="stylesheet" href="simple_accordion/simple_accordion.css" />
@@ -26,7 +26,7 @@ Add simple_accordion.css file incide your HEAD tag
 
 ### JS file
 
-Add simple_accordion.js file before to close body tag
+Add simple_accordion.js file before to close body tag.
 
 ```html
 <script src="simple_accordion/simple_accordeon.js"></script>
@@ -34,13 +34,13 @@ Add simple_accordion.js file before to close body tag
 
 #### Call
 
-Add simple_accordion.js file before to close body tag
+Call the 'simple_accordion()' to initialize your accordion after 'simple_accordion.js' script.
 
 ```javascript
 simple_accordion();
 ```
 
-You can add some custom styling properties
+You can add some custom styling properties.
 
 ```javascript
 simple_accordion({
